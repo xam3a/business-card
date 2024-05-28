@@ -1,0 +1,125 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+.header-image {
+  width: 428px;
+  height: 317px;
+}
+
+.container {
+  padding: 0;
+  margin-top: -4px;
+  padding-top: 26px;
+  background-color: #191f36;
+  max-width: 428px;
+}
+.author-name {
+  padding-left: 98px;
+  color: white;
+}
+.work {
+  padding-left: 113px;
+  color: #a37272;
+}
+.university-name {
+  padding-left: 127px;
+  color: white;
+}
+
+.button {
+  display: flex;
+  padding-left: 49px;
+}
+.email-button {
+  margin-top: 40px;
+  margin-right: 48px;
+  padding: 14px 20px;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  border-radius: 15px;
+  background-color: #d9d9d9;
+}
+.email-button > img {
+  padding-right: 5px;
+  width: 25px;
+}
+.email-button > p {
+  padding-left: 12px;
+  font-size: 18px;
+  font-weight: bold;
+}
+
+.linkedin-button {
+  margin-top: 40px;
+  border-radius: 15px;
+  padding: 14px 20px;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  background-color: #25b8cc;
+}
+
+.linkedin-button > img {
+  padding-right: 5px;
+  width: 25px;
+}
+.linkedin-button > p {
+  color: white;
+  padding-left: 12px;
+  font-size: 18px;
+  font-weight: bold;
+}
+
+.about {
+  padding-top: 32px;
+  padding-left: 49px;
+  color: white;
+}
+.about > h3 {
+  font-size: 28px;
+}
+.about > p {
+  padding-top: 8px;
+  font-size: 16px;
+  max-width: 300px;
+}
+
+.interest {
+  padding-top: 46px;
+  padding-left: 49px;
+  color: white;
+  padding-bottom: 53px;
+}
+.interest > h3 {
+  font-size: 28px;
+}
+.interest > p {
+  padding-top: 8px;
+  font-size: 16px;
+  max-width: 300px;
+}
+
+.footer {
+  display: flex;
+  align-items: center;
+  background-color: #0d101b;
+  max-width: 345px;
+  padding-top: 16px;
+  padding-left: 83px;
+  padding-bottom: 14px;
+}
+
+.footer > img {
+  width: 40px;
+}
+.footer > .facebook-logo {
+  padding-left: 41px;
+}
+.footer > .instagram-logo {
+  padding-left: 41px;
+}
+.footer > .github-logo {
+  padding-left: 41px;
+}
